@@ -1,5 +1,9 @@
 {
   "name": "hardhat-project",
+  "dependencies": {
+    "@uniswap/lib": "1.1.1",
+    "@uniswap/v2-core": "file:../kaco-astar-swap-core/"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
